@@ -1,0 +1,54 @@
+.row_poster {
+    margin-right: 10px;
+    width: 100%;
+    object-fit: contain;
+    max-height: 100px;
+    transition: transform 450ms;
+}
+
+.row-posters {
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    padding: 20px;
+}
+
+.row-posters::-webkit-scrollbar {
+    display: none;
+}
+
+.row_poster:hover {
+    transform: scale(1.08);
+}
+
+.row_large {
+    max-height: 250px;
+}
+
+.row_large:hover {
+    transform: scale(1.09);
+    opacity: 1;
+}
+
+.row {
+    margin-left: 20px;
+    color: white;
+}
+
+.title {
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+}
+
+.row_youtube{
+    padding: 50px;
+}
+
+
+
+
+
+
+
+
